@@ -34,10 +34,7 @@
 ## 특징
 -
 
-## Screenshots
-
-
-## 개발 환경 프로젝트 실행 방법 (Cars API 요청)
+## 개발 환경 프로젝트 실행 방법
 1. **레포지토리 클론 :** `git clone https://github.com/seolhee313/PORTFOLIO/tree/main`
 - vite를 설치 후 환경 설정을 합니다. vite.config.js파일을 만들고 다음과 같이 작성합니다.
 
