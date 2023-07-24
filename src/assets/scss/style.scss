@@ -1,14 +1,33 @@
 @charset "UTF-8";
 
 // setting
-@import "./setting/fonts.scss";
-@import "./setting/base.scss"; 
+@import "./setting/reset";
+@import "./setting/fonts"; 
 
 // commons
 @import "./common/common";
 
 // latout
-@import "./layout/header.scss";
-@import "./layout/section1.scss";
-@import "./layout/section2.scss";
-@import "./layout/section3.scss";
+@import "./layout/loading";
+@import "./layout/header";
+
+// section
+@import "./layout/section1";
+@import "./layout/section2";
+@import "./layout/section3";
+@import "./layout/section4";
+@import "./layout/section5";
+@import "./layout/section6";
+@import "./layout/section7";
+@import "./layout/section8";
+@import "./layout/section9";
+@import "./layout/section10";
+@import "./layout/section10-1";
+@import "./layout/section10-2";
+@import "./layout/section10-3";
+@import "./layout/section11";
+@import "./layout/section12";
+@import "./layout/section13";
+@import "./layout/section14";
+@import "./layout/section15";
+@import "./layout/section16";

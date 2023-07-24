@@ -1,105 +1,867 @@
-  <!DOCTYPE html>
-  <html lang="ko">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>PORTFOLIO</title>
-  </head>
-  <body>
-    <header id="header">
-        <h1>portfolio</h1>
-    </header>
-    <!-- //header -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>PORTFOLIO</title>
+</head>
+<body>
+  <div id="loading">
+    <div class="port">cheon seol hee portfolio</div>
+    <div class="loading">loading</div>
+    <div id="loading-text">0%</div>
+    <div class="bgText">
+      <div class="flow-wrap">cheon seol hee portfolio cheon seol hee portfolio</div>
+      <div class="flow-wrap">cheon seol hee portfolio cheon seol hee portfolio</div>
+      <div class="flow-wrap">cheon seol hee portfolio cheon seol hee portfolio</div>
+      <div class="flow-wrap">cheon seol hee portfolio cheon seol hee portfolio</div>
+    </div>
+  </div>
+  <!-- loading -->
 
-    <nav id="nav">
-      <div>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </nav>
-    <!-- //nav -->
+  <header id="header">
+      <h1>portfolio</h1>
+  </header>
+  <!-- //header -->
 
-    <main id="main">
-        <section id="section1">
-            <div class="img" aria-hidden="true"></div>
-            <div class="arrow1" aria-hidden="true"></div>
-            <div class="arrow2" aria-hidden="true"></div>
-            <div class="text">
-              <span class="line"></span>
-                <ul>
-                  <li class="split">WELCOME</li>
-                  <li class="split">TO MY</li>
-                  <li class="split">PORTFOLIO</li>
-                  <li class="split">SITE</li>
-                </ul>
-            </div>
-            <canvas id="canvas"></canvas>
-        </section>
-        <!-- //section1 -->
+  <nav id="nav">
+    <div>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <!-- <div id="menu">
+      <ul>
+        <li><a href="#section4">메뉴1</a></li>
+        <li><a href="#">메뉴2</a></li>
+        <li><a href="#">메뉴3</a></li>
+        <li><a href="#">메뉴4</a></li>
+      </ul>
+    </div> -->
+  </nav>
+  <!-- //nav -->
 
-        <section id="section2">
+  <main id="main">
+    <!-- 세로 모드 시작 -->
+    <div class="vertical1">
+      <section id="section1">
+        <div class="img" aria-hidden="true"></div>
+        <div class="arrow1" aria-hidden="true"></div>
+        <div class="arrow2" aria-hidden="true"></div>
+        <div class="text">
+            <span class="line"></span>
+            <ul>
+                <li class="split">WELCOME</li>
+                <li class="split">TO MY</li>
+                <li class="split">PORTFOLIO</li>
+                <li class="split">SITE</li>
+            </ul>
+        </div>
+        <canvas id="canvas"></canvas>
+      </section>
+      <!-- //section1 -->
+
+      <section id="section2">
+        <div class="name">
+          <ul>
+            <li class="split"><span>CHEON</span></li>
+            <li class="split"><span>SEOL HEE</span></li>
+          </ul>
+        </div>
+        <div class="iam">
+          <ul>
+            <li class="split">I AM</li>
+            <li class="split">FRONTEND</li>
+            <li class="split">DEVELOPER</li>
+          </ul>
+        </div>
+        <div class="introduce">
+          <ul>
+            <li class="split">저는 항상 새로운 도전에 대한 열정과 긍정적인 자세를 가지고 있습니다.</li>
+            <li class="split">어려움을 마주할 때도 포기하지 않고 문제에 집중하여</li>
+            <li class="split">해결책을 찾아내는 능력을 갖추려고 노력하고 있습니다.</li>
+            <li class="split">지속적인 학습과 개인 발전을 통해 능력있는 프론트엔드 개발자로 성장하고.</li>
+            <li class="split">사용자들에게 가치 있는 웹 경험을 제공하는 것이 저의 목표입니다.</li>
+          </ul>
+        </div>
+        <div class="imgText">
+          <div class="img"></div>
           <div class="text">
-            <div class="name">
-              <ul>
-                <li class="split">CHEON</li>
-                <li class="split">SEOL HEE</li>
-              </ul>
-            </div>
-            <div class="about">
-              <div class="iam">
-                <ul>
-                  <li class="split">I AM</li>
-                  <li class="split">FRONTEND</li>
-                  <li class="split">DEVELOPER</li>
-                </ul>
-              </div>
-              <div class="introduce">
-                <ul>
-                  <li class="split">저는 항상 새로운 도전에 대한 열정과 긍정적인 자세를 가지고 있습니다.</li>
-                  <li class="split">어려움을 마주할 때도 포기하지 않고 문제에 집중하여</li>
-                  <li class="split">해결책을 찾아내는 능력을 갖추려고 노력하고 있습니다.</li>
-                  <li class="split">지속적인 학습과 개인 발전을 통해 능력있는 프론트엔드 개발자로 성장하고.</li>
-                  <li class="split">사용자들에게 가치 있는 웹 경험을 제공하는 것이 저의 목표입니다.</li>
-                </ul>
-              </div>
-            </div>
+            <ul>
+              <li class="split">노력과 열정은 결국 좋은 결과를 가져온다고 믿습니다.</li>
+              <li class="split">끊임없이 배움에 열려있으며, 겸손한 자세로 세부적인 부분까지</li>
+              <li class="split">꼼꼼하게 살펴보는 개발자가 되겠습니다.</li>
+            </ul>
           </div>
-          <div class="imgtext">
-            <div class="img">
-              <ul>
-                <li class="split">노력과 열정은 결국 좋은 결과를 가져온다고 믿습니다.</li>
-                <li class="split">끊임없이 배움에 열려있으며, 겸손한 자세로 세부적인 부분까지</li>
-                <li class="split">꼼꼼하게 살펴보는 개발자가 되겠습니다.</li>
-              </ul>
-            </div>
-            
-          </div>
-          <div class="scroll">
-            <span class="line">
-              <span>SCROLL DOWN</span>
-            </span>
+        </div>
+        <div class="scroll">
+          <div class="text">
+            <span>SCROLL DOWN</span>
             <div class="arrow"></div>
           </div>
-        </section>
-        <!-- //section2 -->
+          <div class="line"></div>
+        </div>
+      </section>
+      <!-- //section2 -->
 
-        <section id="section3"></section>
-        <section id="section4"></section>
-        <section id="section5"></section>
-        <section id="section6"></section>
+      <section id="section3">
+        <div class="header">
+          <span>PORTFOLIO</span>
+          <span>WEBSTORY</span>
+        </div>
+        <div class="arrow"></div>
+        <div class="arrowWhite"></div>
+        <div class="text">
+          <div class="text__inner">
+            <ul class="top">
+              <li class="split">I can HANDLE THESE</li>
+              <li class="split">SKILLs</li>
+            </ul>
+            <span class="line"></span>
+            <ul class="bottom">
+              <li class="split">Welcome</li>
+              <li class="split">to my skills</li>
+              <li class="split">showcase page</li>
+              <li class="split">I possess</li>
+              <li class="split">expertise in</li>
+              <li class="split">HTML CSS</li>
+              <li class="split">JavaScript React</li>
+              <li class="split">and Next.js.</li>
+              <li class="split">Feel free to explore</li>
+              <li class="split">this page to</li>
+              <li class="split">learn more about</li>
+              <li class="split">my skills and projects.</li>
+              <li class="split">Thank you</li>
+              <li class="split">for visiting</li>
+            </ul>
+          </div>
+          <div class="background">
+            <div class="bgArrow1"></div>
+            <div class="bgArrow2"></div>
+            <div class="bgText">
+              <div class="flow-wrap">javascrip & HTML & CSS & javascrip & HTML & CSS &</div>
+              <div class="flow-wrap">javascrip & HTML & CSS & javascrip & HTML & CSS &</div>
+              <div class="flow-wrap">javascrip & HTML & CSS & javascrip & HTML & CSS &</div>
+              <div class="flow-wrap">javascrip & HTML & CSS & javascrip & HTML & CSS &</div>
+            </div>
+            <div class="bgText2">
+              <div class="flow-wrap2">javascrip & HTML & CSS & javascrip & HTML & CSS &</div>
+              <div class="flow-wrap2">javascrip & HTML & CSS & javascrip & HTML & CSS &</div>
+              <div class="flow-wrap2">javascrip & HTML & CSS & javascrip & HTML & CSS &</div>
+              <div class="flow-wrap2">javascrip & HTML & CSS & javascrip & HTML & CSS &</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card1">
+              <h3>HTML & CSS</h3>
+              <p>
+                HTML과 CSS를 조합하여 웹 페이지를 구축하고 콘텐츠를 구성하는 데에 능숙합니다.
+                시맨틱 태그를 사용하여 의미론적인 마크업을 구현하고, 다양한 CSS 속성을 활용하여 디자인과 레이아웃을 구성합니다.
+                또한, 최신 CSS 트렌드에 주의를 기울이며 IR 기법이나 이미지 스프라이트와 같은 기술을 사용합니다.
+                트랜지션, 트랜스폼, 키프레임을 이용하여 애니메이션 효과를 추가할 수 있으며, 코드의 재활용성을 고민하여 효율적인 코드를 작성합니다.
+              </p>
+              <a href="https://seolhee313.github.io/web2023/webd/index.html" target="_blank">VIEW</a>
+            </div>
+            <div class="card2">
+              <h3>JAVASCRIPT</h3>
+              <p>
+                JavaScript 를 활용하여 이벤트 처리를 구현할 수 있습니다.  DOM 조작을 통해 웹 페이지의 요소들을 동적으로 조작하고, 콘텐츠를 업데이트할 수 있으며, Ajax를 이용하여 비동기적으로 서버와 데이터를 주고받을 수 있습니다.
+                또한, 애니메이션 기능을 구현하여 웹 페이지를 더 생동감 있게 만들 수 있습니다. 요소의 이동, 크기 조절, 페이드 인/아웃 등 다양한 애니메이션 효과를 자바스크립트로 제어할 수 있습니다.
+                이를 통해 웹 페이지의 동적 동작과 상호작용성을 향상시킬 수 있습니다.
+              </p>
+              <a href="https://seolhee313.github.io/web2023/javascript/javascript01.html" target="_blank">VIEW</a>
+            </div>
+            <div class="card3">
+              <h3>REACT</h3>
+              <p>
+                REACT를 사용하여 컴퍼넌트를 생성하여 싱글페이지를 출력시킬 수 있습니다.
+                리액트를 통해 외부 API를 활용하여 데이터를 불러올 수 있으며, 유튜브 API나 영화 정보 API를 사용하여 동영상 목록이나 영화 정보를 가져와서 웹 페이지에 표시할 수 있습니다.
+                또한, API와의 연동을 통해 검색 기능도 구현할 수 있습니다. 사용자가 특정 키워드를 입력하면 해당 키워드를 기반으로 API에 요청을 보내고 검색 결과를 받아와 웹 페이지에 동적으로 표시할 수 있습니다.
+                이를 통해 사용자가 편리하게 원하는 정보를 검색할 수 있는 기능을 제공할 수 있습니다.
+              </p>
+              <a href="https://seolhee313.github.io/web2023/react/index.html" target="_blank">VIEW</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //section3 -->
+    </div>
+    <!-- 세로 모드 끝 -->
 
+    <!-- 가로 모드 시작 -->
+    <div id="horizontal">
+      <section id="section4">
+        <div class="header">
+          <span>I MADE IT</span>
+        </div>
+        <div class="text">
+          <ul>
+            <li class="split">about my</li>
+            <li class="split">WEB STANDARD</li>
+            <li class="split">project</li>
+          </ul>
+        </div>
+      </section>
+      <!-- //section4 -->
 
-    </main>
+      <section id="section5">
+        <div class="title">
+          <span class="t1">WEB STANDARD</span>
+          <span class="t2">PROJECT <em>01</em></span>
+        </div>
+        <div class="img"></div>
+        <div class="explain">
+          <div class="aa">
+            <div class="line1">
+              <a href="https://github.com/seolhee313/web2023/blob/main/site/site1/index.html" target="_blank">CODE VIEW</a>
+            </div>
+            <a href="https://github.com/seolhee313/web2023/blob/main/site/site1/index.html" target="_blank"><div class="arrow1"></div></a>
+          </div>
+          <div class="ab">
+            <h3>Explain</h3>
+            <a href="https://seolhee313.github.io/web2023/site/site1/index.html" target="_blank"><div class="arrow"></div></a>
+            <div class="line">
+              <a href="https://seolhee313.github.io/web2023/site/site1/index.html" target="_blank">SITE VIEW</a>
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              제가 좋아하는 커피를 주제로 웹 표준 사이트를 제작하였습니다.
+              카페와 커피에 관한 설명이 주된 사이트입니다.
+              사이트의 기본이 되는 슬라이드 유형, 배너 유형, 이미지텍스트
+              유형, 카드 유형, 배너 유형, 텍스트 유형으로 구성하였습니다.
+              swiper를 이용하여 이미지 슬라이드를 구현하였습니다.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- //section5 -->
 
+      <section id="section6">
+        <div class="title">
+          <span class="t1">Domino’s PIZZA</span>
+          <span class="t2">PROJECT <em>02</em></span>
+        </div>
+        <div class="img"></div>
+        <div class="explain">
+          <div class="aa">
+            <div class="line1">
+              <a href="https://github.com/seolhee313/web2023/blob/main/site/site2/index.html" target="_blank">CODE VIEW</a>
+            </div>
+            <a href="https://github.com/seolhee313/web2023/blob/main/site/site2/index.html" target="_blank"><div class="arrow1"></div></a>
+          </div>
+          <div class="ab">
+            <h3>Explain</h3>
+            <a href="https://seolhee313.github.io/web2023/site/site2/index.html" target="_blank"><div class="arrow"></div></a>
+            <div class="line">
+              <a href="https://seolhee313.github.io/web2023/site/site2/index.html" target="_blank">SITE VIEW</a>
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              실제 도미노피자 사이트를 그대로 따라 제작하였습니다.
+              이미지 슬라이드, 탭 메뉴 등 제이쿼리와 이용하여 구현
+              하였으며 이러한 구현을 바탕으로 리액트를 사용하여 
+              동일한 기능을 가진 웹사이트도 만들었습니다.
+            </p>
+            <div class="line1">
+              <a href="https://github.com/seolhee313/domino-react01" target="_blank">REACT CODE VIEW</a>
+            </div>
+            <a href="https://github.com/seolhee313/domino-react01" target="_blank"><div class="arrow1"></div></a>
+            <a href="https://sitedomino-react01.netlify.app/" target="_blank"><div class="arrow"></div></a>
+            <div class="line">
+              <a href="https://sitedomino-react01.netlify.app/" target="_blank">REACT SITE VIEW</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //section6 -->
 
+      <section id="section7">
+        <div class="title">
+          <span class="t1">REACT SITE</span>
+          <span class="t2">PROJECT <em>03</em></span>
+        </div>
+        <div class="img"></div>
+        <div class="explain">
+          <div class="aa">
+            <div class="line1">
+              <a href="https://github.com/seolhee313/site2023-react01" target="_blank">CODE VIEW</a>
+            </div>
+            <a href="https://github.com/seolhee313/site2023-react01" target="_blank"><div class="arrow1"></div></a>
+          </div>
+          <div class="ab">
+            <h3>Explain</h3>
+            <a href="https://sitecheon-react01.netlify.app/" target="_blank"><div class="arrow"></div></a>
+            <div class="line">
+              <a href="https://sitecheon-react01.netlify.app/" target="_blank">SITE VIEW</a>
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              Node.js를 통해 CMD에서 터미널을 설정하고 NPM으로
+              JS라이브러리를 설치한 후, 컴퍼넌트를 생성하여 싱글페
+              이지를 출력시켜 만든 React를 사이트입니다. API를 이
+              용한 유튜브 페이지에서 동영상 목록과 검색이 가능하며
+              영화페이지에선 영화 목록과 검색이 가능합니다. REACT
+              HOOK함수도 사용했습니다.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- //section7 -->
 
+      <section id="section8">
+        <div class="title">
+          <span class="t1">PHP SITE</span>
+          <span class="t2">PROJECT <em>04</em></span>
+        </div>
+        <div class="img"></div>
+        <div class="explain">
+          <div class="aa">
+            <div class="line1">
+              <a href="https://github.com/seolhee313/php2023/tree/main" target="_blank">CODE VIEW</a>
+            </div>
+            <a href="https://github.com/seolhee313/php2023/tree/main" target="_blank"><div class="arrow1"></div></a>
+          </div>
+          <div class="ab">
+            <h3>Explain</h3>
+            <a href="http://gp2617.dothome.co.kr/php/main/main.php" target="_blank"><div class="arrow"></div></a>
+            <div class="line">
+              <a href="http://gp2617.dothome.co.kr/php/main/main.php" target="_blank">SITE VIEW</a>
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              PHP를 사용해 웹 페이지를 제작하였습니다. 댓글 기능,
+              게시판, 로그인, 회원가입 기능을 넣었습니다. MyAdmin
+              에 접속한 후 MySQL을 이용해 데이터베이스에 접속하여
+              데이터들을 수정, 삭제, 복사 등을 할 수 있습니다.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- //section8 -->
+
+      <section id="section9">
+        <div class="title">
+          <span class="t1">TEAM PROJECT</span>
+          <span class="t2">PROJECT <em>05</em></span>
+        </div>
+        <div class="img"></div>
+        <div class="explain">
+          <div class="aa">
+            <div class="line1">
+              <a href="https://github.com/seolhee313/TEAMPROJECT/tree/main/php2" target="_blank">CODE VIEW</a>
+            </div>
+            <a href="https://github.com/seolhee313/TEAMPROJECT/tree/main/php2" target="_blank"><div class="arrow1"></div></a>
+          </div>
+          <div class="ab">
+            <h3>Explain</h3>
+            <a href="http://gp2617.dothome.co.kr/php2/main/main.php" target="_blank"><div class="arrow"></div></a>
+            <div class="line">
+              <a href="http://gp2617.dothome.co.kr/php2/main/main.php" target="_blank">SITE VIEW</a>
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              “하루 한 지문” 이라는 독해력 향상을 위한 문학/비문학 문제
+              풀이 사이트입니다. PHP를 기반으로한 협력 프로젝트로
+              개발되었으며, 사용자들에게 독해력과 문학적 이해력을
+              향상시킬 수 있도록 도와줍니다. 또한, 사용자들은
+              게시판을 통해 문제의 해설을 공유하고, 간단한 게임 등의
+              기능을 통해 학습을 더욱 흥미롭게 만들 수 있습니다.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- //section9 -->
+
+      <section id="section10">
+        <div class="title">
+          <span class="t1">VUE SITE</span>
+          <span class="t2">PROJECT <em>06</em></span>
+        </div>
+        <div class="img"></div>
+        <div class="explain">
+          <div class="aa">
+            <div class="line1">
+              <a href="https://github.com/seolhee313/site2023-vue01" target="_blank">CODE VIEW</a>
+            </div>
+            <a href="https://github.com/seolhee313/site2023-vue01" target="_blank"><div class="arrow1"></div></a>
+          </div>
+          <div class="ab">
+            <h3>Explain</h3>
+            <a href="https://sitecheon-vue01.netlify.app/" target="_blank"><div class="arrow"></div></a>
+            <div class="line">
+              <a href="https://sitecheon-vue01.netlify.app/" target="_blank">SITE VIEW</a>
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              REACT로 작성한 사이트 레이아웃을 그대로 VUE문법을
+              사용하여 사이트를 만들었습니다. youtube, movie와 같은
+              restful API를 postman사이트를 이용하여 데이터를
+              분류하고 그 중에서 원하는 데이터만 가져와서 사용했습니다.
+              prettier, eslint를 이용해 문법에 오류가 없도록
+              작업하며 코드정리도 했습니다.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- //section10 -->
+
+      <section id="section10-1">
+        <div class="title">
+          <span class="t1">YOUTUBE API</span>
+          <span class="t2">PROJECT <em>07</em></span>
+        </div>
+        <div class="img"></div>
+        <div class="explain">
+          <div class="aa">
+            <div class="line1">
+              <a href="https://github.com/seolhee313/site2023-youtube" target="_blank">CODE VIEW</a>
+            </div>
+            <a href="https://github.com/seolhee313/site2023-youtube" target="_blank"><div class="arrow1"></div></a>
+          </div>
+          <div class="ab">
+            <h3>Explain</h3>
+            <a href="https://sitecheon-youtube01.netlify.app/" target="_blank"><div class="arrow"></div></a>
+            <div class="line">
+              <a href="https://sitecheon-youtube01.netlify.app/" target="_blank">SITE VIEW</a>
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              react로 youtube API를 활용해 제작한 유튜브 API 입니다.
+              useState와 useEffect, useParams를 사용하여
+              유튜브 API 데이터와 서치 기능을 구현하였습니다.
+              아직 준비중입니다.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- //section10-1 -->
+
+      <section id="section10-2">
+        <div class="title">
+          <span class="t1">STUDY SITE</span>
+          <span class="t2">PROJECT <em>08</em></span>
+        </div>
+        <div class="img"></div>
+        <div class="explain">
+          <div class="aa">
+            <div class="line1">
+              <a href="https://github.com/seolhee313/web2023" target="_blank">CODE VIEW</a>
+            </div>
+            <a href="https://github.com/seolhee313/web2023" target="_blank"><div class="arrow1"></div></a>
+          </div>
+          <div class="ab">
+            <h3>Explain</h3>
+            <a href="https://seolhee313.github.io/web2023/" target="_blank"><div class="arrow"></div></a>
+            <div class="line">
+              <a href="https://seolhee313.github.io/web2023/" target="_blank">SITE VIEW</a>
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              학원에 다니며 수업 시간에 공부한 내용을 바로바로
+              작성하며 기록해 놓은 사이트입니다.
+              HTML, JAVASCRIPT, PHP, MySQL, REACT, WEBPACK등을
+              정리해 놓고, 필요할 때마다 찾아보고 있습니다.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- //section10-2 -->
+
+      <section id="section10-3">
+        <div class="title">
+          <span class="t1">NEXT.JS SITE</span>
+          <span class="t2">PROJECT <em>09</em></span>
+        </div>
+        <div class="img"></div>
+        <div class="explain">
+          <div class="aa">
+            <div class="line1">
+              <a href="https://github.com/seolhee313/cars_showcase" target="_blank">CODE VIEW</a>
+            </div>
+            <a href="https://github.com/seolhee313/cars_showcase" target="_blank"><div class="arrow1"></div></a>
+          </div>
+          <div class="ab">
+            <h3>Explain</h3>
+            <a href="https://sitecheon-cars-showcase.netlify.app/" target="_blank"><div class="arrow"></div></a>
+            <div class="line">
+              <a href="https://sitecheon-cars-showcase.netlify.app/" target="_blank">SITE VIEW</a>
+            </div>
+          </div>
+          <div class="text">
+            <p>
+              이 프로젝트는 Javascript Mastery 의 튜토리얼을
+              기반으로 제작하였습니다. NextJS 애플리케이션 작업에
+              익숙해지기 위해 이 프로젝트를 시작하였습니다.
+              TailwindCS, TypeScrip등을 사용하였습니다.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- //section10-2 -->
+    </div>
+    <!-- //horizontal -->
+    <!-- 가로 모드 끝 -->
+
+    <!-- 세로 모드 시작 -->
+    <div class="vertical2">
+      <section id="section11">
+        <div class="text">
+          <ul>
+            <li class="split">about my</li>
+            <li class="">SCRIPT</li>
+            <li class="split">project</li>
+          </ul>
+          <div class="scroll">
+            <span class="line"></span>
+            <h4>SCROLL DOWN</h4>
+            <span class="arrow"></span>
+          </div>
+        </div>
+      </section>
+      <!-- //section11 -->
+
+      <section id="section12">
+        <h3>introduce script</h3>
+        <div class="circle">
+          <a href="https://seolhee-game.web.app/" class="effect-wrap" target="_blank">
+            <div class="effect5">
+              <span>
+                <figcaption>
+                  <h4>music game<em>Effect</em></h4>
+                </figcaption>
+              </span>
+            </div>
+          </a>
+  
+          <a href="https://seolhee-game.web.app/" class="effect-wrap" target="_blank">
+            <div class="effect5">
+              <span>
+                <figcaption>
+                  <h4>TETRIS game<em>Effect</em></h4>
+                </figcaption>
+              </span>
+            </div>
+          </a>
+  
+          <a href="https://seolhee313.github.io/web2023/javascript/parallax/parallaxEffect01.html" class="effect-wrap" target="_blank">
+            <div class="effect5">
+              <span>
+                <figcaption>
+                  <h4>parallax<em>Effect</em></h4>
+                </figcaption>
+              </span>
+            </div>
+          </a>
+          
+          <a href="https://seolhee313.github.io/web2023/javascript/mouse/mouseEffect01.html" class="effect-wrap" target="_blank">
+            <div class="effect5">
+              <span>
+                <figcaption>
+                  <h4>Mouse Hover<em>Effect</em></h4>
+                </figcaption>
+              </span>
+            </div>
+          </a>
+  
+          <a href="https://seolhee313.github.io/web2023/javascript/quiz/quizEffect07.html" class="effect-wrap" target="_blank">
+            <div class="effect5">
+              <span>
+                <figcaption>
+                  <h4>quiz<em>Effect</em></h4>
+                </figcaption>
+              </span>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- //section12 -->
+  
+      <section id="section13">
+        <div class="text">
+          <ul>
+            <li class="split">Do you want to</li>
+            <li class="split">know more</li>
+            <li class="split">about me?</li>
+          </ul>
+        </div>
+        <div class="moreBox">
+          <div class="tistory">
+            <a href="https://seolheeone.tistory.com/" target="_blank">
+              <div class="img"><span></span>istory</div>
+            </a>
+            <div class="view">
+              <span class="line"></span>
+              <span><a href="https://seolheeone.tistory.com/" target="_blank">VIEW</a></span>
+            </div>
+            <a href="https://seolheeone.tistory.com/" target="_blank"><span class="arrow"></span></a>
+          </div>
+          <div class="github">
+            <a href="https://github.com/seolhee313/seolhee313" target="_blank">
+              <div class="img"><span></span>github</div>
+            </a>
+            <div class="view">
+              <span class="line"></span>
+              <span><a href="https://github.com/seolhee313/seolhee313" target="_blank">VIEW</a></span>
+            </div>
+            <a href="https://github.com/seolhee313/seolhee313" target="_blank"><span class="arrow"></span></a>
+          </div>
+          <div class="instagram">
+            <a href="#">
+              <div class="img"><span></span>instagram</div>
+            </a>
+            <div class="view">
+              <span class="line"></span>
+              <span><a href="#" target="_blank">VIEW</a></span>
+            </div>
+            <a href="#" target="_blank"><span class="arrow"></span></a>
+          </div>
+          <div class="codepen">
+            <a href="https://codepen.io/your-work/?cursor=ZD0wJm89MSZwPTEmdj02NzM1MTU3MQ==" target="_blank">
+              <div class="img"><span></span><em>c</em>depen</div>
+            </a>
+            <div class="view">
+              <span class="line"></span>
+              <span><a href="https://codepen.io/your-work/?cursor=ZD0wJm89MSZwPTEmdj02NzM1MTU3MQ==" target="_blank">VIEW</a></span>
+            </div>
+            <a href="https://codepen.io/your-work/?cursor=ZD0wJm89MSZwPTEmdj02NzM1MTU3MQ==" target="_blank"><span class="arrow"></span></a>
+          </div>
+        </div>
+      </section>
+      <!-- //section13 -->
+  
+      <section id="section14">
+        <div class="header">
+          <span>INTRODUCE</span>
+          <span>MY SELF</span>
+        </div>
+        <div class="section__inner">
+          <div class="left">
+            <div class="active">
+              <div class="img1"><span>METICULOUS</span></div>
+            </div>
+            <div>
+              <div class="img2"><span>RATIONAL</span></div>
+            </div>
+            <div>
+              <div class="img3"><span>EARNEST</span></div>
+            </div>
+            <div>
+              <div class="img4"><span>SOCIABLE</span></div>
+            </div>
+            <div>
+              <div class="img5"><span>GO-AHEAD</span></div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="METICULOUS">
+              <h3>METICULOUS</h3>
+              <span>꼼꼼한</span>
+              <p>
+                저는 평소에 꼼꼼하다는 이야기를 주변에서 많이 듣습니다.<br>
+                그로 인해 코딩 작업을 할 때에도 디테일에 주의를 기울이며,<br>
+                작은 실수를 놓치지 않는 성격을 가지고 있습니다.<br>
+                이러한 꼼꼼함은 코드의 정확성과 일관성을 확보하는 데<br>
+                매우 중요한 역할을 한다고 생각합니다. 문제 해결에 있어서도<br>
+                꼼꼼함은 제 강점으로, 복잡한 문제를 체계적으로 분석하고<br>
+                해결책을 찾아내는데 도움을 줍니다.<br>
+                또한, 코드의 가독성과 유지보수성을 고려하여 효율적인<br>
+                프로그램을 작성하는 데에도 신경을 쓰며,<br>
+                협업 환경에서도 원활한 소통과 협력을 위해 꼼꼼함을 발휘합니다.<br>
+                제 꼼꼼한 성격은 프로젝트에 신뢰성과 품질을 높이는 데<br>
+                기여할 것이라 자부합니다.
+              </p>
+            </div>
+            <div class="RATIONAL">
+              <h3>RATIONAL</h3>
+              <span>이성적인, 합리적인</span>
+              <p>
+                저는 평소에 이성적이다는 이야기를 많이 듣습니다. 이는<br>
+                문제 해결과 의사 결정에 있어서 객관적인 사고와 분석적인<br>
+                접근을 채택하는 특성을 의미한다고 생각합니다. 코딩 작업<br>
+                적인 사고가 필요한데, 이성적인 성격은 이러한 작업에 적<br>
+                합한 특징이라고 생각합니다. 이성적인 사고는 감정이 개입<br>
+                되지 않고 사실과 데이터를 바탕으로 판단하는 것을 의미하<br>
+                는데, 프로그래밍은 정확성과 효율성을 요구하는 작업이기 <br>
+                때문에, 이성적인 접근은 버그를 찾고 수정하는 과정에서<br>
+                매우 유용하다고 생각합니다. 또한, 문제의 본질을 파악하<br>
+                고 목표를 달성하기 위한 최상의 전략을 도출하는 데에도<br>
+                도움을 줍니다.
+              </p>
+            </div>
+            <div class="EARNEST">
+              <h3>EARNEST</h3>
+              <span>성실한</span>
+              <p>
+                저는 전 직장을 다닐 때나, 최근 학원을 다닐 때도 지각을<br>
+                전혀 하지 않았습니다. 성실함이란 평소에도 작업을 할 때에도<br>
+                최선을 다하고 책임감을 갖는 특성을 의미한다고 생각합니다.<br>
+                코딩 작업에서는 정확성과 일관성이 중요한데, 성실한 성격은<br>
+                신중하고 철저한 접근으로 이러한 요구사항을 충족시킨다고<br>
+                생각합니다. 또한, 성실함은 프로젝트에 헌신하여 작업의<br>
+                완성도를 높이는 데 도움을 줍니다. 작업의 목표와 일정을<br>
+                준수하며, 주어진 업무에 최선을 다해 정확하고 효율적인<br>
+                결과물을 제공하는 것이 성실한 사람의 특징입니다.<br>
+                성실한 사람은 과제를 완료하기 위해 필요한 추가적인 노력을<br>
+                기꺼이 기울이며, 어려움에 직면해도 포기하지 않고 문제를<br>
+                해결해 나갑니다. 저는 학원을에 다니며 매일 1일 1 블로그를<br>
+                업로드 했으며, 잠이 부족해도 과제를 미룬 적이 없습니다.<br>
+                이러한 성실함은 분명 코딩 작업에 장점이 된다고 생각합니다.
+              </p>
+            </div>
+            <div class="SOCIABLE">
+              <h3>SoCIABLE</h3>
+              <span>사교적인</span>
+              <p>
+                저는 어느 곳을 가도 현장이나 무리에 어울리지 못한 적이 없습니다.<br>
+                사교적인 사람은 타인과의 원활한 관계 형성과 협업을 즐기며,<br>
+                소통과 협업을 위한 능력을 갖추고 있다고 생각합니다.<br>
+                코딩 작업에서도 사교적인 성격은 팀 내 소통과 협업에 매우 중요한<br>
+                역할을 합니다. 사교적인 성격은 팀원들과의 관계를 즐기고,<br>
+                적극적으로 의견을 나누며 협업하는 특징을 의미합니다<br>
+                 프로젝트에서 팀원들과 원활한 소통을 유지하고, 아이디어와 정보를<br>
+                 주고받으면서 효율적인 협업을 끌어낼 수 있습니다. 또한,<br>
+                 다른 사람의 의견을 존중하고 조화롭게 협력하는 능력을 발휘하여<br>
+                 팀의 목표 달성에 기여합니다. 또 저는 사교적인 사람은 팀 내에서의<br>
+                 원활한 협업뿐만이 아니라, 이해관계자와의 소통, 사용자와의<br>
+                 상호작용 등 다양한 상황에서 유용하다고 생각합니다.<br>
+                 이처럼 사교적인 성격은 개발자로서의 커뮤니케이션 능력을 강화시키고,<br>
+                 팀의 동료들과의 관계 형성에 긍정적인 영향을 줄 수 있습니다.
+              </p>
+            </div>
+            <div class="GO-AHEAD">
+              <h3>GO-AHEAD</h3>
+              <span>진취적인</span>
+              <p>
+                저는 제가 진취적인 성격이라고 생각합니다. 진취적인 사람은<br>
+                도전적인 상황에서도 망설이지 않고 앞으로 나아가는 특성이<br>
+                있다고 하는데, 저는 저의 발전을 위해서 전 직장에서 나와서<br>
+                나와 맞으면서 동시에 성취감을 취할 수 있는 직업이 무엇이<br>
+                있는지 탐구하여, 프론트엔드라는 직업을 선택하였습니다.<br>
+                코딩 작업에서는 문제를 해결하고 혁신적인 아이디어를 구현하기<br>
+                위해 진취적인 성격이 필요하다고 생각하는데 저는 그와 어울린다고<br>
+                확신합니다. 진취적인 사람은 새로운 도전에 대해 두려움을 갖지 않으며,<br>
+                새로운 기술과 도구를 학습하고 습득하는 데 능숙합니다.<br>
+                기술의 발전 속도가 빠르게 진행되는 개발 환경에서 진취적인<br>
+                성격은 계속해서 성장하고 발전하기 위한 필수적인 요소입니다.<br>
+                새로운 기술과 개발 방법론에 대한 관심과 탐구를 통해<br>
+                자신을 계속해서발전시키고, 최신 동향에 따라 기술 스택을<br>
+                업데이트하는 것이 중요하다고 생각합니다. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //section14 -->
+  
+      <section id="section15">
+        <span>MY PORTFOLIO</span>
+        <div class="text">
+          <ul>
+            <li class="split">Thank you for</li>
+            <li class="split">lookig at</li>
+            <li class="split">my portfolio so far.</li>
+            <li class="split">please contact me.</li>
+          </ul>
+        </div>
+        <!-- <div class="contact1">
+          <span class="line"></span>
+          <span class="tel">TEL  010 - 3940 -8721</span>
+        </div> -->
+        <div class="contact2">
+          <h4>CONTACT ME</h4>
+          <span class="line"></span>
+        </div>
+      </section>
+      <!-- //section15 -->
+  
+      <section id="section16">
+        <div class="text">
+          <div class="thx">
+            <ul>
+              <li class="split">THANK YOU</li>
+              <li class="split">FOR</li>
+              <li class="split">WATCHING</li>
+            </ul>
+          </div>
+          <div class="mail">
+            <ul>
+              <li class="split">Don't hesitate.</li>
+              <li class="split">To contact me,</li>
+              <li class="split">I want to listen to it</li>
+              <li class="split">From you!</li>
+              <li class="split"><a href="mailto:seolheetwo@gmail.com">seolheetwo@gmail.com</a></li>
+            </ul>
+          </div>
+          <span>Get in touch</span>
+          <div class="menu">
+            <ul>
+              <li class="split"><a href="#section2">Introduce</a></li>
+              <li class="split"><a href="#section3">Skill</a></li>
+              <li class="split"><a href="#section4">Website</a></li>
+              <li class="split"><a href="#section12">Script</a></li>
+              <li class="split"><a href="#section14">About</a></li>
+              <li class="split"><a href="#section16">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- //section16 -->
+    </div>
+    <!-- 세로 모드 끝 -->
     
-    <script type="module" src="main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/89/three.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
-  </body>
-  </html>
+  </main>
+
+
+
+  
+  <script type="module" src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/89/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+  <script>
+    // smooth 효과
+    const lenis = new Lenis({
+        duration: 3,
+        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    });
+
+    function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+    
+
+    const horizontal = document.querySelector('#horizontal');
+    const sections = gsap.utils.toArray('#horizontal > section');
+
+    let scrollTween = gsap.to(sections, {
+      xPercent: -100 * (sections.length - 1),
+      ease: 'none',
+      scrollTrigger: {
+        trigger: horizontal,
+        start: 'top top',
+        end: () => '+=' + (horizontal.offsetWidth - innerWidth),
+        pin: true,
+        scrub: 1,
+        invalidateOnRefresh: true,
+        anticipatePin: 1,
+      },
+    });
+    
+  </script>
+</body>
+</html>

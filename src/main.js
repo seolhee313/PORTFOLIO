@@ -2,5 +2,23 @@
 import './assets/scss/style.scss';
 
 // js
+import './assets/js/header.js';
 import './assets/js/section1.js';
 import './assets/js/section2.js';
+import './assets/js/section3.js';
+import './assets/js/section4.js';
+import './assets/js/section5.js';
+import './assets/js/section6.js';
+import './assets/js/section7.js';
+import './assets/js/section8.js';
+import './assets/js/section9.js';
+import './assets/js/section10.js';
+import './assets/js/section10-1.js';
+import './assets/js/section10-2.js';
+import './assets/js/section10-3.js';
+import './assets/js/section11.js';
+import './assets/js/section12.js';
+import './assets/js/section13.js';
+import './assets/js/section14.js';
+import './assets/js/section15.js';
+import './assets/js/section16.js';
