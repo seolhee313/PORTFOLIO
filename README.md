@@ -31,8 +31,6 @@
 - HTML, SCSS 기반으로 웹사이트의 기본 레이아웃 설계합니다.
 - 웹 표준 및 웹 접근성을 준수합니다. ARIA(Accessible Rich Internet Applications)
 
-## 특징
--
 
 ## 개발 환경 프로젝트 실행 방법
 1. **레포지토리 클론 :** `git clone https://github.com/seolhee313/PORTFOLIO/tree/main`
