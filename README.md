@@ -10,7 +10,7 @@
 ## PORTFOLIO SITE
 ![image](https://github.com/seolhee313/PORTFOLIO/assets/125417882/6cc1abda-abc4-4bf9-a847-71ae5f324ebe)
 
-1. **WEB STANDARD :** [seori coffee](https://seolhee313.github.io/web2023/site/site1/index.html)
+1. **WEB STANDARD :** [Html-Site](https://seolhee313.github.io/web2023/site/site1/index.html)
 2. **Domino`s PIZZA :** [Html-Site](https://seolhee313.github.io/web2023/site/site2/index.html),
                         [React-Site](https://sitedomino-react01.netlify.app/)
 3. **REACT SITE :** [React-Site](https://sitecheon-react01.netlify.app/)
