@@ -27,16 +27,16 @@
 1. **레포지토리 클론 :** `git clone https://github.com/seolhee313/PORTFOLIO/tree/main`
 - vite를 설치 후 환경 설정을 합니다. vite.config.js파일을 만들고 다음과 같이 작성합니다.
 
+```javascript
 export default {
   root: "src",
   build: {
     outDir: "../public",
   },
 };
+```
 
 2. **vite 설치 :** `npm create vite@latest`
 3. **gsap 설치 :** `npm install gsap`
 4. **lenis 설치 :** `npm install @studio-freight/lenis`
 5. **프로젝트 시작 :** `npm run dev`
-
-
