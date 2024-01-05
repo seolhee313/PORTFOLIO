@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>PORTFOLIO</title>
-  <script type="module" crossorigin src="/assets/index-94d456d9.js"></script>
+  <script type="module" crossorigin src="/assets/index-1981f196.js"></script>
   <link rel="stylesheet" href="/assets/index-23b4db90.css">
 </head>
 <body>
@@ -837,18 +837,19 @@
   <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
   <script>
     // smooth 효과
-    const lenis = new Lenis({
-        duration: 3,
-        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-    });
+    // const lenis = new Lenis({
+    //     duration: 3,
+    //     easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t))
+    // });
 
-    function raf(time) {
-        lenis.raf(time);
-        requestAnimationFrame(raf);
-    }
+    // function raf(time) {
+    //     lenis.raf(time)
+    //     requestAnimationFrame(raf);
+    // }
 
-    requestAnimationFrame(raf);
+    // requestAnimationFrame(raf);
     
+
 
     const horizontal = document.querySelector('#horizontal');
     const sections = gsap.utils.toArray('#horizontal > section');

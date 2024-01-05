@@ -60,7 +60,7 @@ if (!window.matchMedia('(max-width: 900px)').matches) {
       x: 30,
       scrollTrigger: {
         trigger: '#section5',
-        containerAnimation: scrollTween,
+        // containerAnimation: scrollTween,
         start: 'left right',
         end: 'right left',
         scrub: 2.5,

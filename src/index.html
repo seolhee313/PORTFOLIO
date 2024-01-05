@@ -835,18 +835,19 @@
   <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
   <script>
     // smooth 효과
-    const lenis = new Lenis({
-        duration: 3,
-        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-    });
+    // const lenis = new Lenis({
+    //     duration: 3,
+    //     easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t))
+    // });
 
-    function raf(time) {
-        lenis.raf(time);
-        requestAnimationFrame(raf);
-    }
+    // function raf(time) {
+    //     lenis.raf(time)
+    //     requestAnimationFrame(raf);
+    // }
 
-    requestAnimationFrame(raf);
+    // requestAnimationFrame(raf);
     
+
 
     const horizontal = document.querySelector('#horizontal');
     const sections = gsap.utils.toArray('#horizontal > section');
