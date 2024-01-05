@@ -25,7 +25,7 @@
 ## 사용 스택 
 - vite(https://ko.vitejs.dev/) 를 사용하여 사이트를 번들링하고 관리합니다.
 - gsap(https://greensock.com/gsap) 를 이용하여 패럴랙스 효과를 줍니다.
-- lenis(https://lenis.studiofreight.com/) 를 이용하여 스므스 효과를 구현합니다.
+- lenis(https://lenis.studiofreight.com/) 를 이용하여 스무스 효과를 구현합니다.
 - Firebase(https://firebase.google.com/?hl=ko/) 를 통해 사이트를 배포합니다.
 - git(https://github.com/) 을 사용하여 파일을 관리합니다.
 - HTML, SCSS 기반으로 웹사이트의 기본 레이아웃 설계합니다.

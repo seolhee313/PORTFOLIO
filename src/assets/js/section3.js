@@ -30,6 +30,9 @@ gsap.to(['#section3', '#section3 .top li'], {
       gsap.to(['#nav span'], {
         backgroundColor: '#fff',
       });
+      gsap.to(['#menu ul li a'], {
+        color: '#000',
+      });
       gsap.set('#section3 .arrow', { display: 'block' });
       gsap.set('#section3 .arrowWhite', { display: 'none' });
     },
@@ -43,6 +46,9 @@ gsap.to(['#section3', '#section3 .top li'], {
       });
       gsap.to(['#nav span'], {
         backgroundColor: '#000',
+      });
+      gsap.to(['#menu ul li a'], {
+        color: '#fff',
       });
       gsap.set('#section3 .arrow', { display: 'none' });
       gsap.set('#section3 .arrowWhite', { display: 'block' });

@@ -28,6 +28,9 @@ gsap.to('#section12', {
       gsap.to(['#nav span'], {
         backgroundColor: '#fff',
       });
+      gsap.to(['#menu ul li a'], {
+        color: '#000',
+      });
     },
     onLeaveBack: function () {
       gsap.to('#section12', {
@@ -43,6 +46,9 @@ gsap.to('#section12', {
       });
       gsap.to(['#nav span'], {
         backgroundColor: '#000',
+      });
+      gsap.to(['#menu ul li a'], {
+        color: '#fff',
       });
     },
   },

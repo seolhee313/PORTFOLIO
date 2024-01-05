@@ -28,6 +28,9 @@ if (!window.matchMedia('(max-width: 900px)').matches) {
         gsap.to(['#nav span'], {
           backgroundColor: '#fff',
         });
+        gsap.to(['#menu ul li a'], {
+          color: '#000',
+        });
       },
       onLeaveBack: function () {
         gsap.to('#section5', {
@@ -42,6 +45,9 @@ if (!window.matchMedia('(max-width: 900px)').matches) {
         });
         gsap.to(['#nav span'], {
           backgroundColor: '#000',
+        });
+        gsap.to(['#menu ul li a'], {
+          color: '#fff',
         });
       },
     },
